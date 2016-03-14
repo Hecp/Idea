@@ -1,7 +1,5 @@
 package com.hcp.designpattern.factory.simplefactory;
 
-import com.hcp.designpattern.factory.factorymethod.Car;
-
 /**
  * 使用简单工厂创建对象
  * 简单工厂当增加新的类时，需要修改工厂类。
