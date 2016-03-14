@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.hcp.designpattern.factory.simplefactory.Test1</OriginalElement>
+  <nodes>
+    <node x="78.0" y="80.0">com.hcp.designpattern.factory.simplefactory.Byd</node>
+    <node x="0.0" y="155.0">com.hcp.designpattern.factory.simplefactory.Test1</node>
+    <node x="0.0" y="80.0">com.hcp.designpattern.factory.simplefactory.Audi</node>
+    <node x="41.0" y="0.0">com.hcp.designpattern.factory.simplefactory.Car</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.hcp.designpattern.factory.simplefactory.Audi" target="com.hcp.designpattern.factory.simplefactory.Car">
+      <point x="0.0" y="-15.0" />
+      <point x="29.0" y="55.0" />
+      <point x="54.0" y="55.0" />
+      <point x="-13.0" y="15.0" />
+    </edge>
+    <edge source="com.hcp.designpattern.factory.simplefactory.Byd" target="com.hcp.designpattern.factory.simplefactory.Car">
+      <point x="0.0" y="-15.0" />
+      <point x="105.0" y="55.0" />
+      <point x="80.0" y="55.0" />
+      <point x="13.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="79.5" y="104.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
