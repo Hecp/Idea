@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.hcp.designpattern.factory.abstractorfactory.Test</OriginalElement>
+  <nodes>
+    <node x="649.2307692307692" y="11.5">com.hcp.designpattern.factory.abstractorfactory.Seat</node>
+    <node x="698.375" y="179.0">com.hcp.designpattern.factory.abstractorfactory.LuxuyTyre</node>
+    <node x="0.0" y="179.0">com.hcp.designpattern.factory.abstractorfactory.LowTyre</node>
+    <node x="737.7307692307692" y="305.0">com.hcp.designpattern.factory.abstractorfactory.LuxuyCarFactory</node>
+    <node x="499.60576923076917" y="0.0">com.hcp.designpattern.factory.abstractorfactory.Engine</node>
+    <node x="180.23076923076917" y="305.0">com.hcp.designpattern.factory.abstractorfactory.LowCarFactory</node>
+    <node x="299.375" y="179.0">com.hcp.designpattern.factory.abstractorfactory.LowSeat</node>
+    <node x="348.23076923076917" y="11.5">com.hcp.designpattern.factory.abstractorfactory.Tyre</node>
+    <node x="484.875" y="454.0">com.hcp.designpattern.factory.abstractorfactory.Test</node>
+    <node x="151.375" y="167.5">com.hcp.designpattern.factory.abstractorfactory.LowEngine</node>
+    <node x="460.375" y="156.0">com.hcp.designpattern.factory.abstractorfactory.CarFactory</node>
+    <node x="849.375" y="167.5">com.hcp.designpattern.factory.abstractorfactory.LuxucyEngine</node>
+    <node x="999.0" y="179.0">com.hcp.designpattern.factory.abstractorfactory.LuxuySeat</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.hcp.designpattern.factory.abstractorfactory.LowCarFactory" target="com.hcp.designpattern.factory.abstractorfactory.LowEngine">
+      <point x="-27.25" y="-49.5" />
+      <point x="261.98076923076917" y="285.0" />
+      <point x="215.375" y="285.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.hcp.designpattern.factory.abstractorfactory.LuxucyEngine" target="com.hcp.designpattern.factory.abstractorfactory.Engine">
+      <point x="0.0" y="-38.0" />
+      <point x="913.375" y="106.0" />
+      <point x="595.6057692307692" y="106.0" />
+      <point x="32.0" y="38.0" />
+    </edge>
+    <edge source="com.hcp.designpattern.factory.abstractorfactory.LowEngine" target="com.hcp.designpattern.factory.abstractorfactory.Engine">
+      <point x="0.0" y="-38.0" />
+      <point x="215.375" y="126.0" />
+      <point x="531.6057692307692" y="126.0" />
+      <point x="-32.0" y="38.0" />
+    </edge>
+    <edge source="com.hcp.designpattern.factory.abstractorfactory.Test" target="com.hcp.designpattern.factory.abstractorfactory.LuxuyCarFactory">
+      <point x="39.75" y="-26.5" />
+      <point x="604.125" y="429.0" />
+      <point x="846.7307692307692" y="429.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="com.hcp.designpattern.factory.abstractorfactory.Test" target="com.hcp.designpattern.factory.abstractorfactory.LowCarFactory">
+      <point x="-39.75" y="-26.5" />
+      <point x="524.625" y="429.0" />
+      <point x="289.23076923076917" y="429.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="com.hcp.designpattern.factory.abstractorfactory.LowSeat" target="com.hcp.designpattern.factory.abstractorfactory.Seat">
+      <point x="0.0" y="-26.5" />
+      <point x="369.875" y="136.0" />
+      <point x="684.4807692307692" y="136.0" />
+      <point x="-35.25" y="26.5" />
+    </edge>
+    <edge source="com.hcp.designpattern.factory.abstractorfactory.LuxuyCarFactory" target="com.hcp.designpattern.factory.abstractorfactory.CarFactory">
+      <point x="-81.75" y="-49.5" />
+      <point x="764.9807692307692" y="285.0" />
+      <point x="623.875" y="285.0" />
+      <point x="54.5" y="49.5" />
+    </edge>
+    <edge source="com.hcp.designpattern.factory.abstractorfactory.LuxuySeat" target="com.hcp.designpattern.factory.abstractorfactory.Seat">
+      <point x="0.0" y="-26.5" />
+      <point x="1069.5" y="96.0" />
+      <point x="754.9807692307692" y="96.0" />
+      <point x="35.25" y="26.5" />
+    </edge>
+    <edge source="com.hcp.designpattern.factory.abstractorfactory.LowCarFactory" target="com.hcp.designpattern.factory.abstractorfactory.LowTyre">
+      <point x="-81.75" y="-49.5" />
+      <point x="207.48076923076917" y="285.0" />
+      <point x="65.5" y="285.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.hcp.designpattern.factory.abstractorfactory.LowCarFactory" target="com.hcp.designpattern.factory.abstractorfactory.CarFactory">
+      <point x="81.75" y="-49.5" />
+      <point x="370.98076923076917" y="285.0" />
+      <point x="514.875" y="285.0" />
+      <point x="-54.5" y="49.5" />
+    </edge>
+    <edge source="com.hcp.designpattern.factory.abstractorfactory.LuxuyCarFactory" target="com.hcp.designpattern.factory.abstractorfactory.LuxuyTyre">
+      <point x="-27.25" y="-49.5" />
+      <point x="819.4807692307692" y="275.0" />
+      <point x="763.875" y="275.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.hcp.designpattern.factory.abstractorfactory.LowCarFactory" target="com.hcp.designpattern.factory.abstractorfactory.LowSeat">
+      <point x="27.25" y="-49.5" />
+      <point x="316.48076923076917" y="275.0" />
+      <point x="369.875" y="275.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.hcp.designpattern.factory.abstractorfactory.LowTyre" target="com.hcp.designpattern.factory.abstractorfactory.Tyre">
+      <point x="0.0" y="-26.5" />
+      <point x="65.5" y="116.0" />
+      <point x="380.98076923076917" y="116.0" />
+      <point x="-32.75" y="26.5" />
+    </edge>
+    <edge source="com.hcp.designpattern.factory.abstractorfactory.LuxuyTyre" target="com.hcp.designpattern.factory.abstractorfactory.Tyre">
+      <point x="0.0" y="-26.5" />
+      <point x="763.875" y="116.0" />
+      <point x="446.48076923076917" y="116.0" />
+      <point x="32.75" y="26.5" />
+    </edge>
+    <edge source="com.hcp.designpattern.factory.abstractorfactory.LuxuyCarFactory" target="com.hcp.designpattern.factory.abstractorfactory.LuxuySeat">
+      <point x="81.75" y="-49.5" />
+      <point x="928.4807692307692" y="285.0" />
+      <point x="1069.5" y="285.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.hcp.designpattern.factory.abstractorfactory.LuxuyCarFactory" target="com.hcp.designpattern.factory.abstractorfactory.LuxucyEngine">
+      <point x="27.25" y="-49.5" />
+      <point x="873.9807692307692" y="285.0" />
+      <point x="913.375" y="285.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="570.0" y="253.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
