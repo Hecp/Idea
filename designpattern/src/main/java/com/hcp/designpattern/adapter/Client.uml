@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.hcp.designpattern.adapter.Client</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">com.hcp.designpattern.adapter.Target</node>
+    <node x="18.25" y="103.0">com.hcp.designpattern.adapter.Adapter</node>
+    <node x="153.0" y="0.0">com.hcp.designpattern.adapter.Adaptee</node>
+    <node x="117.0" y="254.0">com.hcp.designpattern.adapter.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.hcp.designpattern.adapter.Client" target="com.hcp.designpattern.adapter.Adapter">
+      <point x="-39.75" y="-26.5" />
+      <point x="156.75" y="229.0" />
+      <point x="114.75" y="229.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="com.hcp.designpattern.adapter.Client" target="com.hcp.designpattern.adapter.Adaptee">
+      <point x="39.75" y="-26.5" />
+      <point x="236.25" y="229.0" />
+      <point x="278.25" y="229.0" />
+      <point x="41.75" y="26.5" />
+    </edge>
+    <edge source="com.hcp.designpattern.adapter.Adapter" target="com.hcp.designpattern.adapter.Adaptee">
+      <point x="48.25" y="-50.5" />
+      <point x="163.0" y="78.0" />
+      <point x="194.75" y="78.0" />
+      <point x="-41.75" y="26.5" />
+    </edge>
+    <edge source="com.hcp.designpattern.adapter.Adapter" target="com.hcp.designpattern.adapter.Target">
+      <point x="-48.25" y="-50.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="160.5" y="133.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
