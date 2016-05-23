@@ -71,7 +71,7 @@ public class BubbelSort {
         arr.inset(22);
         arr.inset(88);
         arr.inset(11);
-        arr.inset(00);
+        arr.inset(0);
         arr.inset(66);
         arr.inset(33);
 
