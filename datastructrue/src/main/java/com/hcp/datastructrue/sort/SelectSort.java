@@ -49,10 +49,10 @@ class ArraySelect{
 
 public class SelectSort {
     public static void main(String[] args) {
-        int maxSize = 100;
+        int maxSize = 10000;
         ArraySelect arraySelect = new ArraySelect(maxSize);
 
-        arraySelect.insert(77);
+        /*arraySelect.insert(77);
         arraySelect.insert(99);
         arraySelect.insert(44);
         arraySelect.insert(55);
@@ -61,11 +61,18 @@ public class SelectSort {
         arraySelect.insert(11);
         arraySelect.insert(0);
         arraySelect.insert(66);
-        arraySelect.insert(33);
+        arraySelect.insert(33);*/
+
+        for (int i = 0; i < maxSize; i++) {
+            long n = (long) (Math.random() * (maxSize - 1));
+            arraySelect.insert(n);
+        }
 
         arraySelect.display();
 
+        long startTime = System.currentTimeMillis();
         arraySelect.selectionSort();
+        System.out.println(System.currentTimeMillis() - startTime);
         arraySelect.display();
     }
 }

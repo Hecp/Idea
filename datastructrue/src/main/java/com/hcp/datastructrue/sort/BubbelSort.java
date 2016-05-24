@@ -14,7 +14,7 @@ class ArrayBub{
         nElems = 0;
     }
 
-    public void inset(long value){
+    public void insert(long value){
         a[nElems] = value;
         nElems ++;
     }
@@ -61,26 +61,35 @@ class ArrayBub{
 
 public class BubbelSort {
     public static void main(String[] args) {
-        int maxSize = 100;
+        int maxSize = 10000;
         ArrayBub arr = new ArrayBub(maxSize);
 
-        arr.inset(77);
-        arr.inset(99);
-        arr.inset(44);
-        arr.inset(55);
-        arr.inset(22);
-        arr.inset(88);
-        arr.inset(11);
-        arr.inset(0);
-        arr.inset(66);
-        arr.inset(33);
+        /*arr.insert(77);
+        arr.insert(99);
+        arr.insert(44);
+        arr.insert(55);
+        arr.insert(22);
+        arr.insert(88);
+        arr.insert(11);
+        arr.insert(0);
+        arr.insert(66);
+        arr.insert(33);*/
+
+        for (int i = 0; i < maxSize; i++) {
+            long n = (long) (Math.random() * (maxSize - 1));
+            arr.insert(n);
+        }
 
         arr.display();
 
+        long startTime = System.currentTimeMillis();
         arr.bubbleSort();
+        System.out.println(System.currentTimeMillis() - startTime);
         arr.display();
 
+        startTime = System.currentTimeMillis();
         arr.bubbleSortDesc();
+        System.out.println(System.currentTimeMillis() - startTime);
         arr.display();
     }
 }

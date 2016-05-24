@@ -46,10 +46,10 @@ class ArrayInsert{
 
 public class InsertionSort {
     public static void main(String[] args) {
-        int maxSize = 10;
+        int maxSize = 10000;
         ArrayInsert arrayInsert = new ArrayInsert(maxSize);
 
-        arrayInsert.insert(77);
+        /*arrayInsert.insert(77);
         arrayInsert.insert(99);
         arrayInsert.insert(44);
         arrayInsert.insert(55);
@@ -58,11 +58,18 @@ public class InsertionSort {
         arrayInsert.insert(11);
         arrayInsert.insert(0);
         arrayInsert.insert(66);
-        arrayInsert.insert(33);
+        arrayInsert.insert(33);*/
+
+        for (int i = 0; i < maxSize; i++) {
+            long n = (long) (Math.random() * (maxSize - 1));
+            arrayInsert.insert(n);
+        }
 
         arrayInsert.display();
 
+        long startTime = System.currentTimeMillis();
         arrayInsert.insertionSort();
+        System.out.println(System.currentTimeMillis() - startTime);
         arrayInsert.display();
     }
 }
