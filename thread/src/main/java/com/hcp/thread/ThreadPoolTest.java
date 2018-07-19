@@ -50,10 +50,11 @@ class MyTask implements Runnable{
         this.taskNum = taskNum;
     }
 
+    @Override
     public void run() {
         System.out.println("正在执行Task：" + taskNum);
         try {
-            Thread.currentThread().sleep(4000);
+            Thread.sleep(4000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
