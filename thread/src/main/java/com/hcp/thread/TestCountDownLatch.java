@@ -21,7 +21,7 @@ public class TestCountDownLatch {
                 public void run() {
                     System.out.println(Thread.currentThread().getName() + " running……");
                     try {
-                        Thread.sleep(2000);
+                        Thread.sleep(20000);
                         countDownLatch.countDown();
                         System.out.println(Thread.currentThread().getName() + " over.");
                     } catch (InterruptedException e) {
