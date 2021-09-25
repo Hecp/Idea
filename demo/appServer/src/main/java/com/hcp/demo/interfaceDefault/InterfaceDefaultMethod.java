@@ -1,7 +1,5 @@
 package com.hcp.demo.interfaceDefault;
 
-import java.util.function.Supplier;
-
 /**
  * 接口默认方法demo
  * Created by hcp on 2017/7/1.

@@ -7,3 +7,4 @@
 **/*.iml
 /out
 **/target/
+/java_pid10232.hprof.analysis/
